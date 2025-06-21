@@ -1,16 +1,25 @@
 header {
     background-color: transparent;
     display: flex;
-    flex-direction: row;
-    gap: 70px;
-    margin-left: 70px;
+    padding: 20px;
     align-items: center;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    z-index: 100;
-       }
+           
+        .burguer {
+            width: 24px;
+            height: 24px;
+                }
+        .header_logo{
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+             }
+        .nav-links {
+            display: none;
+                }
+
+        }
 
 
 

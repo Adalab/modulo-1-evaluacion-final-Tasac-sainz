@@ -1,0 +1,72 @@
+@use '../core/variables' as vars;
+
+.sectionOpenspaces {
+    background-color: vars.$color-secondary;
+    color: vars.$colorText;
+    padding-top: 20px;  
+    
+        .imagesOpen {
+            width: 90px;
+            height: 90px;
+                }
+        .openTitle {
+            font-size: 20px;
+            font-weight: 600;
+                }
+        .openSubtitle {
+            font-size: 16px;
+                 }
+
+    display: grid;
+    grid-template-columns: 100px 300px 100px;
+    grid-template-rows: 80px 250px 250px 300px;
+            
+        .openspacesText {
+            display: grid;
+            grid-column: 1/4;
+            grid-row: 1/2;
+            text-align: center;
+            padding: 20px 30px;
+            gap: 60px;
+                 }
+
+        .openTitle {
+            margin-top: 20px;
+            margin-bottom: 10px;
+                } 
+        
+        .firstService {
+            display: grid;
+            grid-column: 2/3;
+            grid-row: 2/3;
+            justify-items: center;
+            text-align: center;
+            margin-top: 50px;
+                } 
+             
+        .secondService { 
+            display: grid;
+            grid-column: 2/3;
+            grid-row: 3/4;
+            margin-top: 50px;
+            text-align: center;
+            justify-items: center;
+                }
+
+        .thirdService {
+            display: grid;
+            grid-column: 2/3;
+            grid-row: 4/5;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;
+            justify-items: center;
+                }
+
+            
+        }
+        
+
+
+
+
