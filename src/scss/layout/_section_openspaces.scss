@@ -18,8 +18,8 @@
                  }
 
     display: grid;
-    grid-template-columns: 100px 300px 100px;
-    grid-template-rows: 80px 250px 250px 300px;
+    grid-template-columns: repeat(auto-fit, minmax (300px, 1fr)); //100 px 300px 100px;
+    grid-template-rows: repeat(auto-fit, minmax (300px, 1fr));   //80px 250px 250px 300px;
             
         .openspacesText {
             display: grid;
@@ -27,6 +27,7 @@
             grid-row: 1/2;
             text-align: center;
             padding: 20px 30px;
+            margin-right: 30px;
             gap: 60px;
                  }
 
@@ -61,9 +62,7 @@
             margin-bottom: 50px;
             text-align: center;
             justify-items: center;
-                }
-
-            
+                }          
         }
         
 

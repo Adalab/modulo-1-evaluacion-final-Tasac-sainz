@@ -1,0 +1,25 @@
+@use '../core/variables' as vars;
+
+.bath {
+    color: vars.$colorText;
+    background-color: vars.$color-secondary;
+
+        .bathText {
+            height: 300px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px;
+                .bathTitle {
+                    font-weight: 600;
+                    font-size: 24px;
+                        }
+                .bathDescription {
+                    font-size: 14px;
+                    margin-bottom: 30px;                    
+                        }
+             }
+}
