@@ -12,6 +12,7 @@
         .articles {
             display: flex;
             flex-direction: column;
+            align-items: center;
             margin-top: 50px;
             margin-bottom: 40px;
             gap: 10px;
@@ -24,18 +25,21 @@
                         }
             .contactArticle {
                 margin-bottom: 30px;
-                         }                      
+                margin-left: 60px;  //he tenido que poner este margin porque no se me centraba...//
+                        }                      
                     }
 
         .imageFooter {
             display: flex;
             flex-direction: column;
+;
                     
             .socialMedia {
                 width: 25px;    
                 height: 25px;
                 display: flex;
                 gap: 15px;
+                justify-content: center;
                     }
                 }
             
