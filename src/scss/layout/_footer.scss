@@ -1,10 +1,49 @@
 @use '../core/variables' as vars;
 
-.page__footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    padding: 1rem;
-    color: vars.$color-secondary;
-}
+.page_footer {
+    background-color: #0C474B;
+    color: #b6c8c9;
+    font-family: vars.$fontText;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+        
+        .articles {
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            margin-bottom: 40px;
+            gap: 10px;
+                          
+            .shopArticle {
+                margin-bottom: 30px;
+                       }
+            .aboutArticle {
+                margin-bottom: 30px;
+                        }
+            .contactArticle {
+                margin-bottom: 30px;
+                         }                      
+                    }
+
+        .imageFooter {
+            display: flex;
+            flex-direction: column;
+                    
+            .socialMedia {
+                width: 25px;    
+                height: 25px;
+                display: flex;
+                gap: 15px;
+                    }
+                }
+            
+        .goUp {
+            width: 15px;
+            height: 15px;
+            margin-left: 250px;
+            margin-top: 30px;
+               }    
+    
+    }
