@@ -22,6 +22,17 @@ header {
                 }
 
         }
+@media screen and (min-width: 1024px)
+        {
+        header {
+        .nav-links{
+            display: flex;
+                }  
+
+        .burguer {
+            display:none;
+                }
+        }
 
 
-
+    }
