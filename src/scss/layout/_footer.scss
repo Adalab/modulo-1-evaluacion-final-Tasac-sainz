@@ -10,24 +10,12 @@
     justify-content: center;
         
         .articles {
+            margin-top: 40px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: 50px;
-            margin-bottom: 40px;
-            gap: 10px;
-                          
-            .shopArticle {
-                margin-bottom: 30px;
-                       }
-            .aboutArticle {
-                margin-bottom: 30px;
-                        }
-            .contactArticle {
-                margin-bottom: 30px;
-                margin-left: 60px;  //he tenido que poner este margin porque no se me centraba...//
-                        }                      
-                    }
+            gap: 10px;                    
+                 }
 
         .imageFooter {
             display: flex;
@@ -41,13 +29,36 @@
                 gap: 15px;
                 justify-content: center;
                     }
-                }
+        
+            }
             
         .goUp {
             width: 15px;
             height: 15px;
             margin-left: 250px;
-            margin-top: 30px;
                }    
     
     }
+
+@media screen and (min-width: 900px) {
+
+    .page_footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        .articles {
+            display: flex;
+            flex-direction: row;
+            }    
+        
+        .imageFooter {
+            display: flex;
+            align-items: flex-end;
+            
+        }
+    }
+    
+}
