@@ -4,17 +4,17 @@ header {
     position: fixed;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-                   
+    align-items: center;
+                        
         .burguer {
             width: 24px;
             height: 24px;
             margin: 50px;
                 }
         .header_logo{
-            margin: 20px 100px;
-            margin-right: 500px;
-            
+            width: 100%;
+            text-align: center;
+                    
             
                }
         .nav-links {

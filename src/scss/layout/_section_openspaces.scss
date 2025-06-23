@@ -29,6 +29,7 @@
             padding: 20px 30px;
             margin-right: 30px;
             gap: 60px;
+            
                  }
 
         .openTitle {
@@ -72,9 +73,9 @@
         justify-content: center;
         justify-items: center;
         display: grid;
-            grid-template-columns: 300px 300px 300px;
+            grid-template-columns: 250px 200px 200px;
             grid-template-rows: 100px 300px;
-        padding: 50px 60px;            
+        padding: 70px 80px;            
                     
                 .openspacesText {
                     display: grid;
@@ -84,6 +85,7 @@
                     padding: 20px 30px;
                     margin-right: 30px;
                     gap: 30px;
+                    width: 600px;
                         }
 
                 .openTitle {

@@ -16,20 +16,41 @@
         padding: 62px;
         gap: 35px;
         
-            .enjoy-text {
-                color: vars.$colorText;
-                margin-top: 70px;  
-                margin-bottom: 40px; 
-                    }
-    }
+          .enjoy {
+             width: 100%;
+             text-align: center;
+                .enjoy-text {
+                   color: vars.$colorText;
+                   margin-top: 70px;  
+                       }
+              }
+            .buttonEnjoy {
+              width: 100%;
+              text-align: center;
+              margin: 0;
+                }
+        }
   }
 
 
 @media screen and (min-width: 900px) 
-    {
-    .enjoy.enjoy-text {
-        margin-top:10px;
-    }    
-            
+  {
+    .enjoy {
+      width: 100%;
+      text-align: left;
+      justify-items: center;
+      margin-left: 100px;
+      margin-top: 40px;
     }
+    .enjoy-text {
+        width: 400px;
+        text-align: left;
+          } 
+    
+    .buttonEnjoy {
+      width: 100%;
+      text-align: left;
+    }
+      }
+
 
