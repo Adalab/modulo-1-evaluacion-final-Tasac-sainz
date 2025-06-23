@@ -13,7 +13,7 @@ header {
                 }
         .header_logo{
             margin: 20px 100px;
-            margin-right: 600px;
+            margin-right: 500px;
             
             
                }
@@ -22,11 +22,19 @@ header {
                 }
 
         }
+
 @media screen and (min-width: 1024px)
         {
         header {
+        .header_logo{
+            margin-top: 70px;
+            text-align: center;
+            margin-left: auto;
+        }
         .nav-links{
             display: flex;
+            margin: 70px;
+            margin-right: auto;
                 }  
 
         .burguer {
