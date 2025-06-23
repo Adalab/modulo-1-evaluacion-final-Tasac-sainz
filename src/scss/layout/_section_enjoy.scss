@@ -33,8 +33,7 @@
   }
 
 
-@media screen and (min-width: 900px) 
-  {
+@media screen and (min-width: 900px) {
     .enjoy {
       width: 100%;
       text-align: left;
@@ -53,4 +52,20 @@
     }
       }
 
+@media screen and (min-width: 1728px) 
+{
+          .enjoy{
+          justify-items: left;
+          }
 
+  .page__main{
+    .section-enjoy{
+      .buttonEnjoy{
+            width: 100%;
+            text-align: left;
+            margin-left: 100px;
+                  }
+        }
+     }         
+   }
+  
