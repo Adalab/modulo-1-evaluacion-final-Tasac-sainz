@@ -40,12 +40,20 @@
     .bath {
         display: flex;
         flex-direction: row;
+       
                
             .bathText {
                 width: 50vw;
+                display: flex;
+                align-items:flex-start;
+                padding-left: 150px;
+                padding-right: 350px;
+                    .bathDescription{
+                        text-align: left;
+                            }
                     }
             .bathImage {
                 width:50vw;
-            }
-    }
+                    }
+         }
 }
