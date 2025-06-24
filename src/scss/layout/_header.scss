@@ -14,13 +14,10 @@ header {
         .header_logo{
             width: 100%;
             text-align: center;
-                    
-            
-               }
+              }
         .nav-links {
             display: none;
                 }
-
         }
 
 @media screen and (min-width: 1024px)
@@ -29,18 +26,15 @@ header {
         .header_logo{
             text-align: center;
             margin-left: auto;
-        }
-        .nav-links{
+               }
+        .nav-links {
             display: flex;
             margin: 70px;
             margin-right: auto;
             margin-left: 200px;
                 }  
-
         .burguer {
             display:none;
                 }
         }
-
-
     }

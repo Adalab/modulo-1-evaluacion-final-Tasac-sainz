@@ -63,26 +63,29 @@
             height: 25px;
             width: 25px;
                 }
+        
         .goUp {
             bottom: 80px;
             right: 70px;
-        }        
-    }  
-}
+              }        
+       }  
+    }
 
-@media screen and (min-width:1728px) {
+@media screen and (min-width:1728px) 
+    {
     .page_footer{
-            .articles{
+
+            .articles {
                 display: flex;
                 flex-direction: row;
                 gap: 200px;
                 margin-top: 120px;
                 margin-bottom: 80px;
-                    }
+                     }
             .goUp{
                 right: 300px;
                 bottom: 150px;
             }
             
         }
-}
+   }

@@ -2,7 +2,6 @@
 
 .bath {
     color: vars.$colorText;
-    
 
         .bathText {
             height: 400px;
@@ -31,9 +30,7 @@
             background-image: url(/images/creando-espacios.jpg);
             background-size:cover;
             background-repeat:no-repeat;
-                }                            
-                 
-          
+                }                                     
     }
 
 @media screen and (min-width: 1728px) {
@@ -41,13 +38,13 @@
         display: flex;
         flex-direction: row;
        
-               
             .bathText {
                 width: 50vw;
                 display: flex;
                 align-items:flex-start;
                 padding-left: 150px;
                 padding-right: 350px;
+                    
                     .bathDescription{
                         text-align: left;
                             }

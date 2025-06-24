@@ -23,7 +23,7 @@
                    color: vars.$colorText;
                    margin-top: 70px;  
                        }
-              }
+                  }
             .buttonEnjoy {
               width: 100%;
               text-align: center;
@@ -40,23 +40,23 @@
       justify-items: center;
       margin-left: 100px;
       margin-top: 40px;
-    }
+          }
     .enjoy-text {
         width: 400px;
         text-align: left;
           } 
-    
     .buttonEnjoy {
       width: 100%;
       text-align: left;
-    }
-      }
+         }
+  }
+
 
 @media screen and (min-width: 1728px) 
 {
-          .enjoy{
-          justify-items: left;
-          }
+    .enjoy{
+      justify-items: left;
+        }
 
   .page__main{
     .section-enjoy{
